@@ -13,8 +13,7 @@ def find_max_occurred_alphabet(string):
             max_alphabet = alphabet
             max_occurrence = occurence
     return max_alphabet
-# 1. a, b, c 처럼 문자가 해당 문자열에 얼마나 있는지 파악하고, 그 개수가 가장 크다면 반환해줘야 하는 값을 그 알파벳으로 반환한다.
-
+ 
 result = find_max_occurred_alphabet
 print("정답 = i 현재 풀이 값 =", result("hello my name is dingcodingco"))
 print("정답 = e 현재 풀이 값 =", result("we love algorithm"))
