@@ -17,3 +17,7 @@
 # 4 5
 # 예제 출력 2 
 # 0.8
+
+
+A, B = map(int, input().split())
+print(A / B)

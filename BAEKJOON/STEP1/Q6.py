@@ -15,3 +15,11 @@
 # 21
 # 2
 # 1
+
+A, B = map(int, input().split())
+
+print(A + B)
+print(A - B)
+print(A * B)
+print(A // B)
+print(A % B)

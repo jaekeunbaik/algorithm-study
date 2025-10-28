@@ -11,3 +11,7 @@
 # 77 77 7777
 # 예제 출력 1 
 # 7931
+
+A, B, C = map(int, input().split())
+
+print(A + B + C)    

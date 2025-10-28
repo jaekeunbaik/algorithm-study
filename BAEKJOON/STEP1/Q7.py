@@ -15,3 +15,6 @@
 # baekjoon
 # 예제 출력 2 
 # baekjoon??!
+A = input()
+
+print(A + "??!")
