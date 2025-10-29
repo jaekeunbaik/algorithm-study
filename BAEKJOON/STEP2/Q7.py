@@ -21,16 +21,5 @@ elif A == B or A == C:
 elif B == C :
     print(1000 + B * 100)
 else:
-    if A > B:
-        if A > C :
-            print(A * 100)
-        else :
-            print(C * 100)
-    else :
-        if B > C :
-            print(B * 100)
-        else :
-            print(C * 100)
-
-
+    print(max(A,B,C)*100)
 
